@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <nav className="bg-orange-100 p-4 flex justify-between items-center">
         <div>
-          <h1 className=" font-bold text-2xl text-orange-600 ml-6">FoodDash</h1>
+          <h1 className=" font-bold text-2xl text-orange-600 ml-6">Baby Food</h1>
         </div>
         <ul className="flex : space-x-5">
           <li className="hover:font-bold">Home</li>
