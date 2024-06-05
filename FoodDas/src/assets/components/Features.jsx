@@ -2,7 +2,7 @@ import React from 'react';
 
 function Features() {
   return (
-    <div className='border rounded-full'>
+    <div className='border border-black-800 rounded-full'>
     <div className="flex justify-around bg-white p-6">
       <div className="text-center">
         <img src="fast-delivery.png" alt="Fast Delivery" className="mx-auto" />
@@ -25,3 +25,4 @@ function Features() {
 }
 
 export default Features;
+
