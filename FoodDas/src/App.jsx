@@ -1,7 +1,8 @@
-import Navbar from './assets/components/Navbar'
+import Navbar from './components/Navbar'
 import './App.css'
-import Hero from './assets/components/Hero'
-import Features from './assets/components/Features'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
      <Navbar />
      <Hero />
      <Features />
+     <Footer />
     </>
   )
 }
