@@ -1,26 +1,29 @@
 import Navbar from './components/Navbar'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Footer from './components/Footer'
-import Login from './components/login'
+import Login from './components/login';
 import Signup from './components/Signup'
 
 function App() {
-  
-
   return (
     <>
-     {/* <Navbar />
-     <Hero />
-     <Features />
-     
-     <Footer /> */}
-     <Login />
-     {/* <Signup /> */}
+      {/* <Router>
+        <Routes>
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
+        </Routes>
+      </Router> */}
+      
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
- 
+export default App;
