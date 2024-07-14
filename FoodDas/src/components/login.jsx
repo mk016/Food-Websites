@@ -1,9 +1,10 @@
 import React from 'react'
+import backgroundImage from '../img/Rectangle.png';
 
 function login() {
   return (
     <div className='min-h-screen flex'>
-      <div className='w-full md:w-1/2 bg-cover bg-center' style={{background : ''}}>
+      <div className='w-full md:w-1/2 bg-cover bg-center' style={{ backgroundImage: `url(${backgroundImage})` }}>
         { }
       </div>
       <div className='w-full md:w-1/2 flex items-center justify-center p-8'>
