@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import backgroundImage from '../img/Rectangle.png';
 import logoImage from '../img/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,11 +20,11 @@ const Login = () => {
             <p className="font-bold text-2xl md:text-4xl mt-2 text-gray-600 text-center">Login to your account!</p>
           </div>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 w-full sm:w-auto">
+            <button className="flex items-center px-6 py-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 w-full sm:w-auto">
               <FontAwesomeIcon icon={faGoogle} className="mr-2 text-red-500" />
               Login with Google
             </button>
-            <button className="flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 w-full sm:w-auto">
+            <button className="flex items-center px-6 py-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 w-full sm:w-auto">
               <FontAwesomeIcon icon={faFacebook} className="mr-2 text-blue-500" />
               Login with Facebook
             </button>
@@ -41,7 +42,7 @@ const Login = () => {
               <button type="submit" className="w-full flex justify-center py-3 px-4 border border-transparent rounded-3xl text-lg shadow-sm text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Login to Continue</button>
             </div>
             <div className="text-center mt-4">
-              <p className="text-sm text-gray-600">Don't have an account? <a href="#" className="font-medium text-orange-600 hover:text-orange-500">Sign up</a></p>
+              <p className="text-sm text-gray-600">Don't have an account? <a href="/signup" className="font-medium text-orange-600 hover:text-orange-500">Sign up</a></p>
             </div>
           </form>
         </div>
