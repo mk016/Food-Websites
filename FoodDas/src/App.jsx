@@ -16,8 +16,8 @@ function App() {
      <Features />
      
      <Footer /> */}
-     {/* <Login /> */}
-     <Signup />
+     <Login />
+     {/* <Signup /> */}
     </>
   )
 }
