@@ -13,10 +13,10 @@ const Login = () => {
       <div className="w-full md:w-1/2 flex items-center justify-center p-8">
         <div className="max-w-md w-full space-y-8">
           <div className="flex justify-center">
-            <img src={logoImage} alt="Food Dash Logo" className="h-16 w-16" />
+            <img src={logoImage} alt="Food Dash Logo" className="h-16 w-16 " />
           </div>
           <div>
-            <h2 className="font-bold text-3xl text-orange-500">Food Dash</h2>
+            
             <p className="font-bold text-4xl mt-2 text-gray-600">Login to your account!</p>
           </div>
           <div className="flex justify-center space-x-4">
@@ -24,7 +24,7 @@ const Login = () => {
               <FontAwesomeIcon icon={faGoogle} className="mr-2 text-red-500" />
               Login with Google
             </button>
-            <button className="flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+            <button className="flex items-center px-6 py-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
               <FontAwesomeIcon icon={faFacebook} className="mr-2 text-blue-500" />
               Login with Facebook
             </button>
