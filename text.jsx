@@ -1,54 +1,47 @@
 import React from 'react';
 
-const Footer = () => {
+const Logi = () => {
   return (
-    <footer className="bg-orange-100 text-orange-900 py-8">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
-        <div className="mb-8 md:mb-0">
-          <h1 className="text-2xl font-bold">FOOD DASH</h1>
-          <p className="mt-2">Food Dash ©2023 All Rights Reserved</p>
-          <p>By - Piyush Prajapat</p>
-          <p className="mt-4 font-bold">Follow Us On</p>
-          <div className="flex space-x-4 mt-2">
-            <a href="#" className="hover:text-orange-700"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="hover:text-orange-700"><i className="fab fa-linkedin"></i></a>
-            <a href="#" className="hover:text-orange-700"><i className="fab fa-facebook"></i></a>
-            <a href="#" className="hover:text-orange-700"><i className="fab fa-twitter"></i></a>
-            <a href="#" className="hover:text-orange-700"><i className="fab fa-dribbble"></i></a>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row md:space-x-12">
-          <div className="mb-8 md:mb-0">
-            <h2 className="font-bold">Menu</h2>
-            <ul className="mt-2 space-y-2">
-              <li><a href="#" className="hover:text-orange-700">Home</a></li>
-              <li><a href="#" className="hover:text-orange-700">Offers</a></li>
-              <li><a href="#" className="hover:text-orange-700">Service</a></li>
-              <li><a href="#" className="hover:text-orange-700">About Us</a></li>
-            </ul>
-          </div>
-          <div className="mb-8 md:mb-0">
-            <h2 className="font-bold">Information</h2>
-            <ul className="mt-2 space-y-2">
-              <li><a href="#" className="hover:text-orange-700">Menu</a></li>
-              <li><a href="#" className="hover:text-orange-700">Quality</a></li>
-              <li><a href="#" className="hover:text-orange-700">Make A Choice</a></li>
-              <li><a href="#" className="hover:text-orange-700">Fast Delivery</a></li>
-            </ul>
+    <div className="min-h-screen flex">
+      <div className="w-full md:w-1/2 bg-cover bg-center" style={{ backgroundImage: 'url(/path/to/your/image.jpg)' }}>
+        {/* Image on the left */}
+      </div>
+      <div className="w-full md:w-1/2 flex items-center justify-center p-8">
+        <div className="max-w-md w-full space-y-8">
+          <div>
+            <h2 className="text-3xl font-bold text-orange-700">Food Dash.</h2>
+            <p className="mt-2 text-gray-600">Login to your account!</p>
           </div>
           <div>
-            <h2 className="font-bold">Contact</h2>
-            <ul className="mt-2 space-y-2">
-              <li><a href="#" className="hover:text-orange-700">+123456789</a></li>
-              <li><a href="#" className="hover:text-orange-700">Explore</a></li>
-              <li><a href="mailto:info@fooddash.com" className="hover:text-orange-700">info@fooddash.com</a></li>
-              <li><a href="#" className="hover:text-orange-700">12, Maharashtra, India</a></li>
-            </ul>
+            <button className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+              <i className="fab fa-google mr-2"></i>
+              Login with Google
+            </button>
+            <button className="mt-4 w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">
+              <i className="fab fa-facebook mr-2"></i>
+              Login with Facebook
+            </button>
           </div>
+          <form className="mt-8 space-y-6">
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email Address</label>
+              <input type="email" name="email" id="email" autoComplete="email" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm" placeholder="Youraddress@email.com" />
+            </div>
+            <div>
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
+              <input type="password" name="password" id="password" autoComplete="current-password" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm" placeholder="Enter your password" />
+            </div>
+            <div>
+              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Login to Continue</button>
+            </div>
+            <div className="text-center mt-4">
+              <p className="text-sm text-gray-600">Don't have an account? <a href="#" className="font-medium text-orange-600 hover:text-orange-500">Sign up</a></p>
+            </div>
+          </form>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
-export default Footer;
+export default Ln;
