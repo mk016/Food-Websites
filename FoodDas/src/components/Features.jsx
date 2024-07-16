@@ -5,7 +5,7 @@ import freshIcon from '../img/freshIcon.png';
 
 function Features() {
   return (
-    <div className='flex justify-center bg-red-200 items-center py-full'>
+    <div className='flex justify-center items-center py-full'>
       <div className='flex justify-around bg-white rounded-xl shadow-lg mx-w-5xl w-'>
         <div className='flex items-center space-x-6 mx-6'>
         <img src={fastDeliveryIcon} alt="Fast Delivery" className="w-16 h-16" />
