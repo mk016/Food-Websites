@@ -3,7 +3,8 @@ import React from 'react'
 function Footer() {
   return (
  
-      <footer className=' text-orange-900 py-8'style={{ backgroundColor: '#FFEFE6' }}>
+      <footer className=' text-orange-900 py-8'style={{ backgroundColor: '#FFEFE6' }}
+      >
       <div className='container mx-auto px-4 flex flex-col md:flex-row justify-between '>
         <div className='mb-8 md:mb-0 flex flex-col space-y-4'>
             <h1 className='text-2xl text-ornage-300 font-bold'>FOOD DASH</h1>
