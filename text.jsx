@@ -23,6 +23,7 @@ function Features() {
             <p className="text-gray-500">100% Fresh To Your Home.</p>
           </div>
         </div>
+        <div></div>
         <div className="flex items-center space-x-4 mx-2">
           <img src={boxIcon} alt="Free Delivery" className="w-16 h-16" />
           <div className="text-left">
