@@ -33,14 +33,14 @@ function Menu() {
           <div className="text-center m-4">
             <img src={vermicelliUpma} alt="Vermicelli Upma" className="w-60 h-60 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Vermicelli Upma</h3>
-            <button className="mt-2 text-orange-500 font-bold">Order Now </button>
+            <button className="mt-2 text-orange-500 font-bold">Order Now  </button>
           </div>
         </div>
 
         <h2 className="text-3xl font-bold text-center mb-8">Our Regular Menu</h2>
         <div className="flex justify-around flex-wrap">
           <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img src={indianDessert} alt="Indian Dessert Angoori Rasmalai" className="w-40 h-40 mx-auto mb-2 rounded-full shadow-lg" />
+            <img src={indianDessert} alt="Indian Dessert Angoori Rasmalai" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Indian Dessert Angoori Rasmalai</h3>
             <div className="flex justify-center items-center">
               <span className="text-lg font-bold">₹250</span>
@@ -48,7 +48,7 @@ function Menu() {
             </div>
           </div>
           <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img  alt="Indian Tea Time Snacks" className="w-40 h-40 mx-auto mb-2 rounded-full shadow-lg" />
+            <img  alt="Indian Tea Time Snacks" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Indian Tea Time Snacks</h3>
             <div className="flex justify-center items-center">
               <span className="text-lg font-bold">₹250</span>
@@ -56,7 +56,7 @@ function Menu() {
             </div>
           </div>
           <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img  alt="South Indian Masala Dosa" className="w-40 h-40 mx-auto mb-2 rounded-full shadow-lg" />
+            <img  alt="South Indian Masala Dosa" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">South Indian Masala Dosa</h3>
             <div className="flex justify-center items-center">
               <span className="text-lg font-bold">₹150</span>
@@ -64,7 +64,7 @@ function Menu() {
             </div>
           </div>
           <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img alt="Gujarati Pav Bhaji" className="w-40 h-40 mx-auto mb-2 rounded-full shadow-lg" />
+            <img alt="Gujarati Pav Bhaji" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Gujarati Pav Bhaji</h3>
             <div className="flex justify-center items-center">
               <span className="text-lg font-bold">₹250</span>
