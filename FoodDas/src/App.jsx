@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Login from './components/login';
 import Signup from './components/Signup'
 import Menu from './components/menu';
+import Cart from './components/Cart'
 //import Card from './components/Card'
 
 function App() {
@@ -20,13 +21,14 @@ function App() {
         </Routes>
       </Router> */}
       
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Features />
      
         <Menu />
-        <Footer />
-   
+        
+        <Footer /> */}
+    <Cart/>
     </>
   );
 }
