@@ -5,10 +5,11 @@ import React from 'react';
 import paneerBhunaMasala from '../img/panner.png';
  import vermicelliUpma from '../img/food2.png';
  import indianDessert from '../img/Dessert.png';
-// import indianTeaSnacks from '../img/indian-tea-snacks.png';
-// import southIndianMasalaDosa from '../img/south-indian-masala-dosa.png';
-// import gujaratiPavBhaji from '../img/gujarati-pav-bhaji.png';
-// import rajasthanDalBati from '../img/rajasthan-dal-bati.png';
+ import indiaPoha from '../img/poha.png';
+ import indiasamosha from '../img/samosha.png';
+ import gujaratiPavBhaji from '../img/pavbhaji.png';
+ import rajasthanDalBati from '../img/DAL-BAATI-CHURMA.png';
+ import Dosha from '../img/dosha.png'
 
 function Menu() {
   return (
@@ -37,48 +38,146 @@ function Menu() {
           </div>
         </div>
 
-        <h2 className="text-3xl font-bold text-center mb-8">Our Regular Menu</h2>
+        {/* the second menu start */}
+
+          <div className='flex justify-between items-center mb-8'>
+          <h2 className="text-3xl w-1/2  font-bold text-center mb-7 ml-4 text-start ">Our <a className='text-orange-500'>Regular</a> Menu</h2>
+            <button className=' text-white bg-orange-500 border rounded-full py-2 px-4 text-end '>See All</button>
+          </div>
         <div className="flex justify-around flex-wrap">
-          <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
+          <div className="text-center m-4  p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
             <img src={indianDessert} alt="Indian Dessert Angoori Rasmalai" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Indian Dessert Angoori Rasmalai</h3>
-            <div className="flex justify-center items-center">
+            <div className=" justify-center items-center">
+            <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
               <span className="text-lg font-bold">₹250</span>
               <button className="ml-4 py-2 px-4 text-white bg-orange-500 rounded-full">Buy Now</button>
             </div>
           </div>
-          <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img  alt="Indian Tea Time Snacks" className="w-40 h-40 mx-auto mb-2 rounded-full " />
+          <div className="text-center m-4 p-4 rounded-lg w-64 relative"style={{ backgroundColor: '#FFEFE6' }}>
+            <img src={indiaPoha}  alt="Indian Tea Time Snacks" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Indian Tea Time Snacks</h3>
-            <div className="flex justify-center items-center">
-              <span className="text-lg font-bold">₹250</span>
+            <div className=" justify-center items-center">
+            <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
+              <span className="text-lg font-bold  ">₹250</span>
               <button className="ml-4 py-2 px-4 text-white bg-orange-500 rounded-full">Buy Now</button>
             </div>
           </div>
-          <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img  alt="South Indian Masala Dosa" className="w-40 h-40 mx-auto mb-2 rounded-full " />
-            <h3 className="text-lg font-bold">South Indian Masala Dosa</h3>
-            <div className="flex justify-center items-center">
+          <div className="text-center m-4 p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
+            <img src={indiasamosha} alt="South Indian Masala Dosa" className="w-40 h-40 mx-auto mb-2 rounded-full " />
+            <h3 className="text-lg font-bold"> Indian Morning Snacks</h3>
+            <div className=" justify-center items-center">
+            <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
               <span className="text-lg font-bold">₹150</span>
               <button className="ml-4 py-2 px-4 text-white bg-orange-500 rounded-full">Buy Now</button>
             </div>
           </div>
-          <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img alt="Gujarati Pav Bhaji" className="w-40 h-40 mx-auto mb-2 rounded-full " />
+          <div className="text-center m-4 p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
+            <img src={gujaratiPavBhaji} alt="Gujarati Pav Bhaji" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Gujarati Pav Bhaji</h3>
-            <div className="flex justify-center items-center">
+            <div className=" justify-center items-center">
+            <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
               <span className="text-lg font-bold">₹250</span>
               <button className="ml-4 py-2 px-4 text-white bg-orange-500 rounded-full">Buy Now</button>
             </div>
           </div>
-          <div className="text-center m-4 bg-white p-4 rounded-lg shadow-lg">
-            <img  alt="Rajasthan Dal Bati Churma" className="w-40 h-40 mx-auto mb-2 rounded-full " />
+          <div className="text-center m-4 p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
+            <img src={rajasthanDalBati} alt="Rajasthan Dal Bati Churma" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Rajasthan Dal Bati Churma</h3>
-            <div className="flex justify-center items-center">
+            <div className=" justify-center items-center">
+            <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
               <span className="text-lg font-bold">₹450</span>
               <button className="ml-4 py-2 px-4 text-white bg-orange-500 rounded-full">Buy Now</button>
             </div>
+         
           </div>
+          <div className="text-center m-4 p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
+              <img src={Dosha} className='w-40 h-40 mx-auto mb-2 rounded-full'/>
+              <h3 className='text-lg font-bold'>South indian masala Dosa</h3>
+              <div className=' justify-center items-center'>
+              <div className="flex items-center justify-center mt-2 mb-4">
+          <div className="flex text-yellow-500">
+            {[...Array(5)].map((star, index) => (
+              <svg 
+                key={index} 
+                className="w-5 h-5 fill-current" 
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .587l3.668 7.431 8.207 1.193-5.931 5.774 1.401 8.175L12 18.897l-7.345 3.863 1.401-8.175-5.931-5.774 8.207-1.193z"/>
+              </svg>
+            ))}
+          </div>
+          <span className="ml-2 text-gray-600">(120)</span>
+        </div>
+                <span className='text-lg font-bold'>450</span>
+                <button className='ml-4 py-2 px-4 text-white bg-orange-500 rounded-full'>Buy Now</button>
+              </div>
+            </div>
         </div>
       </div>
     </div>
