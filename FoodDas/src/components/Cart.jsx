@@ -9,15 +9,16 @@ function Cart() {
         <div className=' rounded-lg  p-8 m-7  max-w- xl '>
           <div className=' pr-6'>
             <div className='flex items-center mb-4'>
-              <a  className='font-bold text-xl'>
+              <a  className='font-bold text-xl mb-3'>
                 {<ArrowBackIosIcon />}Shopping Continue
               </a>
             </div>
             <div>
-            <div className="border-t-4 border-dashed border-orange-500 border-bold w-full my-4"></div>
-              <span className='font-semibold text-sm'>Shopping Items</span>
+            {/* <div className="border-t-4 border-dashed border-orange-500 border-bold w-full my-4"></div> */}
+            <div className="custom-dashed-line mb-7"></div>
+              <span className='font-semibold text-sm mb-5'>Shopping Items</span>
             </div>
-            <div className='flex justify-between w-full items-center bg-white p-8 mx-9 mb-8 ml-4 shadow-lg rounded-lg'>
+            <div className='flex justify-between w-full mt-7 items-center bg-white p-8 mx-9 mb-8 ml-4 shadow-lg rounded-lg'>
               <img src={Dosha} alt='cart-items' className='w-12 h-12 rounded-full' />
               <span className='text-black text-lg font-semibold'>Vemicelli Upma</span>
               <button className='text-white rounded-full font-semibold text-xl w-10 h-10' style={{ backgroundColor :'#FF6000'}}>-</button>
