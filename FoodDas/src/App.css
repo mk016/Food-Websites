@@ -1,11 +1,25 @@
-/* In your styles.css or a Tailwind CSS file */
-.bg-stripes {
+/* styles.css */
+.custom-dashed-line {
+    width: 100%;
+    border-top: 4px dashed rgb(253, 88, 0); /* Thickness and color of the line */
+    border-style: dashed;
+    border-top-style: dashed;
+    border-top-width: 4px;
+    border-color: rgb(231, 89, 32);
+  }
+  
+  .custom-dashed-line::after {
+    content: "";
+    display: block;
+    margin-top: -4px; /* Adjust according to the line thickness */
+    width: 100%;
+    border-top: 4px dashed transparent;
     background: repeating-linear-gradient(
-      90deg,
-      black,
-      black 5px,
-      orange 5px,
-      orange 10px
+      to right,
+      black 0,
+      black 10px,
+      transparent 10px,
+      transparent 20px
     );
   }
   
