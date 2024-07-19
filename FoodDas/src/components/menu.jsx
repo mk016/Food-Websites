@@ -10,6 +10,9 @@ import paneerBhunaMasala from '../img/panner.png';
  import gujaratiPavBhaji from '../img/pavbhaji.png';
  import rajasthanDalBati from '../img/DAL-BAATI-CHURMA.png';
  import Dosha from '../img/dosha.png'
+ import Coupan1 from '../img/Coupan1.png'
+ import Coupan2 from '../img/Coupan2.png'
+ import Coupan3 from '../img/Coupan3.png'
 
 function Menu() {
   return (
@@ -174,11 +177,22 @@ function Menu() {
           </div>
           <span className="ml-2 text-gray-600">(120)</span>
         </div>
-                <span className='text-lg font-bold'>450</span>
+                <span className='text-lg font-bold'>₹450</span>
                 <button className='ml-4 py-2 px-4 text-white bg-orange-500 rounded-full'>Buy Now</button>
               </div>
             </div>
+            
         </div>
+       <div className='w-full f-full grid sm:grid-cols-2 gap-4 mt-5'>
+        <div className='flex-1 flex flex-col'>
+          <img src={Coupan1} alt='Coupan1' className='w-full mb-3' />
+        </div>
+        <div className=' grid sm:grid-rows-2 gap-6'>
+          <img src={Coupan2} alt='Coupan2'className='h-34 ' />
+          <img src={Coupan3} alt='Coupan3'className=' h-53'  />
+        </div>
+       </div>
+
       </div>
     </div>
   );
