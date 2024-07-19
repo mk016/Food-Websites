@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Login from './components/login';
 import Signup from './components/Signup'
 import Menu from './components/menu';
+import Card from './components/Card'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
      
         <Menu />
         <Footer />
+        <Card />
     </>
   );
 }
