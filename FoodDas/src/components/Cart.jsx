@@ -2,8 +2,7 @@ import React from 'react'
 import Dosha from '../img/dosha.png'
 import DeleteIcon from '@mui/icons-material/Delete';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import './App.css'
-
+import '../App.css'
 function Cart() {
   return (
     <div class=" flex justify-center items-center w-full min-h-screen" style={{ backgroundColor: '#FFEFE6' }}>
@@ -15,7 +14,7 @@ function Cart() {
               </a>
             </div>
             <div>
-              
+            <div className="border-t-4 border-dashed border-orange-500 border-bold w-full my-4"></div>
               <span className='font-semibold text-sm'>Shopping Items</span>
             </div>
             <div className='flex justify-between w-full items-center bg-white p-8 mx-9 mb-8 ml-4 shadow-lg rounded-lg'>
