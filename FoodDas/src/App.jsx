@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Footer from './components/Footer'
+import Footer2 from './components/Footer2'
 import Login from './components/login';
 import Signup from './components/Signup'
 import Menu from './components/menu';
 import Cart from './components/Cart'
+
 //import Card from './components/Card'
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
         <Menu />
         
         <Footer /> */}
-    <Cart/>
+      <Footer2 />
     </>
   );
 }
