@@ -57,7 +57,7 @@ function Cart() {
          
           </div>
         </div>
-        <div className='w-1/3 pl-6  text-white rounded-lg p-6' style={{ backgroundColor :'#FF6000'}}>
+        <div className='w-1/3 pl-6  text-white rounded-3xl p-6' style={{ backgroundColor :'#FF6000'}}>
           <div className='flex justify-between mr-9 mt-5'>
           <h2 className='font-semibold mb-4 text-3xl flex items-center 2xl:ml-8'>
             Card Details
