@@ -16,7 +16,7 @@ function Navbar() {
       </ul>
       <div className="flex items-center mt-4 md:mt-0">
       <div className="bg-orange-500 p-4 rounded-full">
-        {/* <SearchIcon className="h-8 w-8 text-white" /> */}
+        <SearchIcon className="h-8 w-8 text-white" />
       </div>
         <img
           src="profile-icon.png"
