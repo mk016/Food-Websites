@@ -7,8 +7,10 @@ import Footer from './components/Footer'
 import Footer2 from './components/Footer2'
 import Login from './components/login';
 import Signup from './components/Signup'
-import Menu from './components/menu';
+import items from './components/items';
 import Cart from './components/Cart'
+import Menu from './components/menu'
+
 
 //import Card from './components/Card'
 
@@ -30,7 +32,8 @@ function App() {
         <Menu />
         
         <Footer /> */}
-      <Footer2 />
+  
+      <Menu />
     </>
   );
 }
