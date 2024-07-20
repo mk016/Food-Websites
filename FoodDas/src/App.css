@@ -22,4 +22,10 @@
       transparent 20px
     );
   }
+  .custom-rounded {
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    border-bottom-left-radius: 0.7rem; /* Adjust as needed */
+    border-bottom-right-radius: 0.7rem; /* Adjust as needed */
+  }
   
