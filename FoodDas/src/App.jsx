@@ -1,6 +1,8 @@
+
+// import React, { Component } from 'react';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Footer from './components/Footer'
