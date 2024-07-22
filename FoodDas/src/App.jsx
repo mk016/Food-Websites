@@ -1,41 +1,26 @@
-
-// import React, { Component } from 'react';
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import './App.css'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Footer from './components/Footer'
-import Footer2 from './components/Footer2'
-import Login from './components/login';
-import Signup from './components/Signup'
-import items from './components/items';
-import Cart from './components/Cart'
-import Menu from './components/menu'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Menu from './components/menu';
 
+import Home from './components/Home';
 
-//import Card from './components/Card'
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/menu",
+    element: <Menu />
+  }
+]);
 
 function App() {
   return (
     <>
-      {/* <Router>
-        <Routes>
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Login />} />
-        </Routes>
-      </Router> */}
-      
-      {/* <Navbar />
-      <Hero />
-      <Features />
-     
-        <Menu />
-        
-        <Footer /> */}
-  
-      <Menu />
+      <Navbar />
+      <RouterProvider router={router} />
     </>
   );
 }
