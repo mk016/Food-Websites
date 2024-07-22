@@ -1,5 +1,6 @@
 import React from "react";
-import logoImage from '../img/logo1.png';
+import { NavLink } from "react-router-dom";
+import logoImage from "../img/logo1.png";
 
 function Navbar() {
   return (
@@ -8,16 +9,36 @@ function Navbar() {
         <img src={logoImage} alt="logo" className="w-24 md:w-40" />
       </div>
       <ul className="flex flex-wrap gap-5 mt-4 md:mt-0">
-        <li className="text-gray-400 font-bold hover:text-orange-500">Home</li>
-        <li className=" text-gray-400 font-bold hover:text-orange-500">Menu</li>
-        <li className=" text-gray-400 font-bold hover:text-orange-500">Offers</li>
-        <li className=" text-gray-400 font-bold hover:text-orange-500">Service</li>
-        <li className=" text-gray-400 font-bold hover:text-orange-500">About Us</li>
+        <li>
+          <NavLink to="/" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/menu" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+            Menu
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+            Offers
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+            Service
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+            About Us
+          </NavLink>
+        </li>
       </ul>
       <div className="flex items-center mt-4 md:mt-0">
-      <div className="bg-orange-500 p-4 rounded-full">
-        {/* <SearchIcon className="h-8 w-8 text-white" /> */}
-      </div>
+        <div className="bg-orange-500 p-4 rounded-full">
+          {/* <SearchIcon className="h-8 w-8 text-white" /> */}
+        </div>
         <img
           src="profile-icon.png"
           alt="Profile"
@@ -29,4 +50,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
