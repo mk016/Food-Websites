@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logoImage from "../img/logo1.png";
+import Login from './login'
+import Menu from './menu'
 
 function Navbar() {
   return (
@@ -15,12 +17,12 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/menu" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+          <NavLink to="/Menu" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
             Menu
           </NavLink>
         </li>
         <li>
-          <NavLink to="" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+          <NavLink to="/Offers" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
             Offers
           </NavLink>
         </li>
@@ -30,8 +32,8 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
-            About Us
+          <NavLink to="/Login" className={(e)=>{e.isActive?"text-gray-300": "text-black"}}>
+           Login
           </NavLink>
         </li>
       </ul>
