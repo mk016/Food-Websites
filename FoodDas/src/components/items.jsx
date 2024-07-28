@@ -13,6 +13,7 @@ import paneerBhunaMasala from '../img/panner.png';
  import Coupan1 from '../img/Coupan1.png'
  import Coupan2 from '../img/Coupan2.png'
  import Coupan3 from '../img/Coupan3.png'
+import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
@@ -45,7 +46,7 @@ function Menu() {
 
           <div className='flex justify-between items-center mb-8'>
           <h2 className="text-3xl w-1/2  font-bold text-center mb-7 ml-4 text-start ">Our <a className='text-orange-500'>Regular</a> Menu</h2>
-            <button className=' text-white bg-orange-500 border rounded-full py-2 px-4 text-end '>See All</button>
+            <Link to='/Menu' className=' text-white bg-orange-500 border rounded-full py-2 px-4 text-end '>See All</Link>
           </div>
         <div className="flex justify-around flex-wrap">
           <div className="text-center m-4  p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
