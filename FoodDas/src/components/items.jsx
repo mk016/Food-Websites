@@ -48,7 +48,7 @@ function Menu() {
           <h2 className="text-3xl w-1/2  font-bold text-center mb-7 ml-4 text-start ">Our <a className='text-orange-500'>Regular</a> Menu</h2>
             <Link to='/Menu' className=' text-white bg-orange-500 border rounded-full py-2 px-4 text-end '>See All</Link>
           </div>
-        <div className="flex justify-around flex-wrap">
+        <div className="flex justify-center flex-wrap">
           <div className="text-center m-4  p-4 rounded-lg w-64 relative" style={{ backgroundColor: '#FFEFE6' }}>
             <img src={indianDessert} alt="Indian Dessert Angoori Rasmalai" className="w-40 h-40 mx-auto mb-2 rounded-full " />
             <h3 className="text-lg font-bold">Indian Dessert Angoori Rasmalai</h3>
