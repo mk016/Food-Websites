@@ -27,7 +27,7 @@ function Navbar() {
           <NavLink
             to="/"
             className={(e) => {
-              e.isActive ? "text-gray-300" : "text-black";
+              e.isActive ? "text-orange-500" : "text-black";
             }}
           >
             Home
