@@ -3,6 +3,7 @@ import Dosha from "../img/dosha.png";
 import DeleteIcon from "@mui/icons-material/Delete";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import "../App.css";
+ import Profile from '../img/Profile.png'
 
 function Cart() {
   return (
@@ -123,7 +124,7 @@ function Cart() {
         </div>
       </div>
       <div
-        className="w-1/3 pl-6  text-white rounded-3xl p-6"
+        className="w-1/3 pl-6  rounded-3xl p-6"
         style={{ backgroundColor: "#FF6000" }}
       >
         <div className="flex justify-between mr-9 mt-5">
@@ -131,7 +132,7 @@ function Cart() {
             Card Details
           </h2>
           <img
-            src={Dosha}
+            src={Profile}
             alt="img"
             className="rounded-full bg-white h-20 w-20 2xl:items-center"
           />
