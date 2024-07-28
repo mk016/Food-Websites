@@ -11,13 +11,14 @@ import Signup from "./components/Signup"; // Import the Signup component
 function App() {
   return (
     <>
-      <Navbar /> {/* Render Navbar globally */}
+       {/* Render Navbar globally */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<> <Navbar /><Home /> </>}  />
         <Route path="/login" element={<Login />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/menu" element={<> <Navbar /><Menu /> </>} />
+        <Route path="/cart" element={<> <Navbar /><Cart /> </>} />
         <Route path="/signup" element={<Signup />} /> {/* Add the Signup route */}
+        <Route path="/Home" element={<><Navbar /><Home /></>} />
       </Routes>
     </>
   );
