@@ -1,5 +1,5 @@
 import React from "react";
-import Nav2 from "./Nav2";
+
 import biryani from "../img/biryani2.png";
 import DeleteIcon from "@mui/icons-material/Delete";
 import Footer2 from "./Footer2";
@@ -21,7 +21,7 @@ import Allu from '../img/AlluMuter.png'
 function Menu() {
   return (
     <div>
-      <Nav2 />
+    
       <div>
         <h1 className="font-bold text-2xl flex items-center justify-center mt-5">
           Our
