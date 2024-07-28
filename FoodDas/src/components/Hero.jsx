@@ -7,7 +7,7 @@ function Hero() {
     <div className="min- flex flex-col md:flex-row" style={{ backgroundColor: '#FFEFE6' }}>
       <div className="w-full md:w-1/2 mt-9 ml-4 flex flex-col justify-center p-4">
         {/* Left side content */}
-        <div>
+        <div className='ml-9'>
           <h1 className="text-4xl font-bold mb-2">
             <a className='text-orange-500 font-lexend '>Quick</a> and <a className='text-orange-500'>Tasty</a>
           </h1>
@@ -18,7 +18,7 @@ function Hero() {
             <a className='text-orange-500'>Dash of</a> Speed
           </h1>
         </div>
-        <div className='mt-4'>
+        <div className='mt-4 ml-9'>
           <button className='block  py-2 px-9 border-2 rounded-3xl border-orange-500 text-white bg-orange-500 mb-4'>
             Order Now
           </button>
@@ -29,7 +29,7 @@ function Hero() {
       </div>
       
       <div className='w-full md:w-1/2 mt-4 ml-6 flex items-center justify-center'>
-        <div className='w-80 h-80 bg-cover bg-center' style={{ backgroundImage: `url(${FoodImage})` }}>
+        <div className='w-80 h-80 bg-cover bg-center mb-20' style={{ backgroundImage: `url(${FoodImage})` }}>
           {/* Smaller image container */}
         </div>
       </div>
