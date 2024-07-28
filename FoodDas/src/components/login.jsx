@@ -14,7 +14,7 @@ const Login = () => {
       <div className="w-full md:w-1/2 flex items-center justify-center p-4 md:p-8">
         <div className="max-w-md w-full space-y-8">
           <div className="flex justify-center">
-            <img src={logoImage} alt="Food Dash Logo" className='mx-auto w-24 md:w-40' />
+            <img src={logoImage} alt="Food Dash Logo" className="mx-auto w-24 md:w-40" />
           </div>
           <div>
             <p className="font-bold text-2xl md:text-4xl mt-2 text-gray-600 text-center">Login to your account!</p>
@@ -42,7 +42,7 @@ const Login = () => {
               <button type="submit" className="w-full flex justify-center py-3 px-4 border border-transparent rounded-3xl text-lg shadow-sm text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Login to Continue</button>
             </div>
             <div className="text-center mt-4">
-              <p className="text-sm text-gray-600">Don't have an account? <a href="/signup" className="font-medium text-orange-600 hover:text-orange-500">Sign up</a></p>
+              <p className="text-sm text-gray-600">Don't have an account? <Link to="/signup" className="font-medium text-orange-600 hover:text-orange-500">Sign up</Link></p>
             </div>
           </form>
         </div>
