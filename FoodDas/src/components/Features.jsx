@@ -28,8 +28,8 @@ function Features() {
           <div className="text-left">
             <h1 className="text-xl font-bold mb-1">Free Delivery</h1>
             <p className="text-gray-500">Your Food Delivery Is</p>
-            <p className="text-gray-500">Absolutely Free. No Cost Just</p>
-            <p className="text-gray-500">Order</p>
+            <p className="text-gray-500">Absolutely Free. No Cost Just Order</p>
+            <p className="text-gray-500"></p>
           </div>
         </div>
       </div>
