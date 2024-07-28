@@ -4,6 +4,7 @@ import logoImage from '../img/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import Home from '../components/Home'
 
 function Signup() {
   return (
@@ -12,7 +13,13 @@ function Signup() {
       <div className="w-full md:w-1/2 flex items-center justify-center p-8">
         <div className="max-w-md w-full space-y-8">
           <div className="flex justify-center">
-            <img src={logoImage} alt="Food Dash Logo" className="mx-auto w-40" />
+          <Link to="/Home">
+              <img
+                src={logoImage}
+                alt="Food Dash Logo"
+                className="mx-auto w-24 md:w-40"
+              />{" "}
+            </Link>
           </div>
           <div className="mt-9">
             <p className="font-bold text-3xl mt-2">Create Account</p>
